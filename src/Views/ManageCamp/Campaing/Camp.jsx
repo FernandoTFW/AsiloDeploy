@@ -84,16 +84,16 @@ export function Camp(props) {
 
   const handleEdit = (e) => {
     e.preventDefault();
-    navigate(`/EditCampaing/${id}`);
+    navigate(`/AsiloDeploy/EditCampaing/${id}`);
   };
 
   const handleReport = (e) => {
     e.preventDefault();
-    navigate(`/report/${id}`);
+    navigate(`/AsiloDeploy/report/${id}`);
   };
   const handleDonations = (e) => {
     e.preventDefault();
-    navigate(`/lista/${id}`);
+    navigate(`/AsiloDeploy/lista/${id}`);
   };
 
   return (

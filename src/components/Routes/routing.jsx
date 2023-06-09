@@ -11,15 +11,15 @@ import { EditFormCampaing } from "../../Views/ManageCamp/EditCamp/EditForm";
 const Routing = () => {
   return (
     <Routes>
-      <Route path="/" element={<Login />} /> {/* Ruta raíz */}
-      <Route path="/login" element={<Login />} />
-      <Route path="/register" element={<RegisterForm />} />
-      <Route path="/hello" element={<HelloWorld/>}></Route>
-      <Route path="/Campaings" element={<ListCamp/>} />
-      <Route path="/NewCampaing" element={<FormCampaing/>} />
-      <Route path="/EditCampaing/:id" element={<EditFormCampaing/>} />
-      <Route path="/report/:id" element={<Reporte/>}></Route>
-      <Route path="/lista/:id" element={<ListaRecoger/>}></Route>
+      <Route path="/AsiloDeploy/" element={<Login />} /> {/* Ruta raíz */}
+      <Route path="/AsiloDeploy/login" element={<Login />} />
+      <Route path="/AsiloDeploy/register" element={<RegisterForm />} />
+      <Route path="/AsiloDeploy/hello" element={<HelloWorld/>}></Route>
+      <Route path="/AsiloDeploy/Campaings" element={<ListCamp/>} />
+      <Route path="/AsiloDeploy/NewCampaing" element={<FormCampaing/>} />
+      <Route path="/AsiloDeploy/EditCampaing/:id" element={<EditFormCampaing/>} />
+      <Route path="/AsiloDeploy/report/:id" element={<Reporte/>}></Route>
+      <Route path="/AsiloDeploy/lista/:id" element={<ListaRecoger/>}></Route>
     </Routes>
   );
 };

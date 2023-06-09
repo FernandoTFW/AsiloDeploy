@@ -108,7 +108,7 @@ const RegisterForm = () => {
     setCelular('');
     setAddress('');
     setLocation(center);
-    navigate("/login");
+    navigate("/AsiloDeploy/login");
 
    
     

@@ -41,7 +41,7 @@ const Login = () => {
         setLoggedIn(true);
 
         console.log('Usuario correcto');
-        navigate('/Campaings');
+        navigate('/AsiloDeploy/Campaings');
       } else {
         // El inicio de sesión falló
         const errorMessage = response.data.message;
@@ -95,7 +95,7 @@ const Login = () => {
           >
             Sign In
           </button>
-          <Link to="/register">Registro</Link>
+          <Link to="/AsiloDeploy/register">Registro</Link>
         </div>
       </form>
     </div>

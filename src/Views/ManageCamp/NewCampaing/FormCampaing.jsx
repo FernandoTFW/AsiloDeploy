@@ -83,7 +83,7 @@ export function FormCampaing() {
           )
           .then((response) => {
             console.log(response);
-            navigate("/Campaings");
+            navigate("/AsiloDeploy/Campaings");
           })
           .catch((error) => {
             console.log(error);
@@ -95,7 +95,7 @@ export function FormCampaing() {
         SetEndDate("");
         SetType(null);
         SetImages([]);
-        navigate("/Campaings");
+        navigate("/AsiloDeploy/Campaings");
       } else {
         console.error("Error: all fields must be filled");
       }
@@ -110,7 +110,7 @@ export function FormCampaing() {
         type="button"
         class="border border-red-500 bg-red-500 text-white rounded-md px-4 py-2 m-2 transition duration-500 ease select-none hover:bg-red-600 focus:outline-none focus:shadow-outline"
         onClick={() => {
-          navigate("/Campaings");
+          navigate("/AsiloDeploy/Campaings");
         }}
       >
         Atras

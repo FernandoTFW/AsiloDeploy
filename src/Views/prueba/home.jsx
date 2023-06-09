@@ -12,7 +12,7 @@ const HelloWorld = () => {
     localStorage.clear();
 
     // Redireccionar al inicio de sesión
-    navigate('/login');
+    navigate('/AsiloDeploy/login');
   };
 
   return (
