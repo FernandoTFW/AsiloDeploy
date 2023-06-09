@@ -32,7 +32,7 @@ async function Update(idCampaign, campaing, navigate) {
     )
     .then((response) => {
       console.log(response);
-      navigate("/Campaings");
+      navigate("/AsiloDeploy/Campaings");
     })
     .catch((error) => {
       console.log(error);
